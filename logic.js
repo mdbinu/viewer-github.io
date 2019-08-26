@@ -13,6 +13,8 @@ window.onload = function() {
     input1.addEventListener('change', handleFiles, false);
 	var input2 = document.getElementById('input2');
     input2.addEventListener('change', handleFiles2, false);
+	//console.log(docWidth);
+	//console.log(docHeight);
 }
 
 function CalcResolution( docWidth, docHeight, img )
